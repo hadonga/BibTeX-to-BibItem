@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BibTeX-to-BibItem converter - Arshad Mehmood</title>
+    <title>BibTeX-to-BibItem converter FOR IEEE conference - Dong He </title>
 </head>
 <body>
+<br><br>
+<p>BibTeX-to-BibItem converter For <strong>IEEE conference</strong> - Dong He</p>
+<p>Easy to use</p>
+<p>1. Copy BibTex to inputbox </p>
+<p>2. Click Convert </p>
+<br><br>
 <form action="{{ url_for('submit') }}" method="post">
     <textarea style="width: 600px;height: 250px;" name="text"></textarea>
     <br>
-    <input style="width: 606px;height:50px;" type="submit">
+    <input style="width: 200px;height:50px;" name="Convert" type="submit">
 </form>
 
 <br><br><br><br><br>
-
-<p><strong>About:</strong> Made by <a href="https://arshadmehmood.com/">Arshad Mehmood</a>.</p>
+<p>#  Recognize booktitle; change order of name; remove capitalization, etc.</p>
+<p><strong>Reference:</strong> fork and modify from <a href="https://arshadmehmood.com/">Arshad Mehmood</a>.</p>
 </body>
 </html>
