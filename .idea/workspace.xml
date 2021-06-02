@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af31f970-fe65-4215-8364-702ff51e1c16" name="Default" comment="working poc">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BibTeX-to-BibItem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BibTeX-to-BibItem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566846218667</updated>
-      <workItem from="1622612651779" duration="8066000" />
+      <workItem from="1622612651779" duration="12925000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world flask heroku">
       <created>1566847930234</created>
@@ -122,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566854751259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="working poc">
+      <created>1622622543440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622622543440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,29 +144,37 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Hello world flask heroku" />
     <MESSAGE value="update req file" />
-    <MESSAGE value="working poc" />
     <MESSAGE value="working poc bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="working poc bug fix" />
+    <MESSAGE value="working poc" />
+    <option name="LAST_COMMIT_MESSAGE" value="working poc" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="247" key="GridCell.Tab.0.bottom" timestamp="1622621728126">
+    <state x="907" y="88" key="CommitChangelistDialog2" timestamp="1622622542798">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="247" key="GridCell.Tab.0.bottom/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622621728126" />
-    <state width="2517" height="247" key="GridCell.Tab.0.center" timestamp="1622621728126">
+    <state x="907" y="88" key="CommitChangelistDialog2/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622622542798" />
+    <state width="1365" height="360" key="GridCell.Tab.0.bottom" timestamp="1622633329274">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="247" key="GridCell.Tab.0.center/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622621728126" />
-    <state width="2517" height="247" key="GridCell.Tab.0.left" timestamp="1622621728125">
+    <state width="1365" height="360" key="GridCell.Tab.0.bottom/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622633329274" />
+    <state width="1365" height="360" key="GridCell.Tab.0.center" timestamp="1622633329274">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="247" key="GridCell.Tab.0.left/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622621728125" />
-    <state width="2517" height="247" key="GridCell.Tab.0.right" timestamp="1622621728126">
+    <state width="1365" height="360" key="GridCell.Tab.0.center/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622633329274" />
+    <state width="1365" height="360" key="GridCell.Tab.0.left" timestamp="1622633329274">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="247" key="GridCell.Tab.0.right/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622621728126" />
+    <state width="1365" height="360" key="GridCell.Tab.0.left/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622633329274" />
+    <state width="1365" height="360" key="GridCell.Tab.0.right" timestamp="1622633329274">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1365" height="360" key="GridCell.Tab.0.right/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622633329274" />
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2" timestamp="1622622556806">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2/2560.0.1707.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1622622556806" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BibTeX_to_BibItem$app.coverage" NAME="app Coverage Results" MODIFIED="1622621728120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BibTeX_to_BibItem$app.coverage" NAME="app Coverage Results" MODIFIED="1622631979741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

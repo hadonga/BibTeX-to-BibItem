@@ -1,5 +1,5 @@
 #
-
+import re
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
@@ -41,13 +41,15 @@ def convert(bibtex):
                     note = line[line.find("{") + 1:line.rfind("}")]
                 elif line.startswith("author"):
                     authors = line[line.find("{") + 1:line.rfind("}")]
-                    for LastFirst in authors.split('and'):
-                        lf = LastFirst.replace(' ', '').split(',')
+                    for name in authors.split(' and '):
+                        lf = name.replace(' ', '').split(',')
                         if len(lf) != 2:
-                            output_authors.append("{}.".format(authors.capitalize()))
+                            print("insider:"+lf[0])
+                            output_authors.append("{}".format(lf[0].capitalize()))
                         else:
                             last, first = lf[0], lf[1]
                             output_authors.append("{}. {}".format(first.capitalize()[0],last.capitalize()))
+                        print(output_authors)
                 i += 1
 
             bibitem += "\\bibitem{%s}" % code
@@ -58,9 +60,9 @@ def convert(bibtex):
             if venue:
                 bibitem +=" in {{\\em {}}}".format(" ".join([_ for _ in venue.split(' ')]))
                 if volume:
-                    bibitem += " \\textbf{{{}}}".format(volume)
+                    bibitem += ", volume {}".format(volume)
                 if pages:
-                    bibitem += ", {}".format(pages) if number else " pp. {}".format(pages)
+                    bibitem += ", {}".format(pages) if number else ", pages {}".format(pages)
                 if year:
                     bibitem += ", {}".format(year)
             if publisher and not venue:
